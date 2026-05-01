@@ -1,0 +1,81 @@
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.spec
+
+# ─── Virtual Environments ───────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ─── Jupyter Notebook ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Dataset & Data Files ───────────────────────────────────────────────────────
+# Exclude large or sensitive data files from version control
+dataset.csv
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# ─── Trained Models ─────────────────────────────────────────────────────────────
+*.keras
+*.h5
+*.pb
+saved_model/
+models/
+checkpoints/
+
+# ─── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ─── IDEs & Editors ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+
+# ─── OS Generated ───────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Logs & Reports ─────────────────────────────────────────────────────────────
+*.log
+logs/
+reports/
+*.out
+
+# ─── Coverage & Testing ─────────────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
